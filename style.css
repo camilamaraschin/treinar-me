@@ -1,0 +1,97 @@
+body{
+   margin: 0;
+   background: linear-gradient(180deg, rgba(277, 255, 248,0) 82.08% , rgba(227, 255, 248, 0.38) 100%)
+
+}
+
+h3, span{
+    color: green;
+}
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    width: 490px;
+
+}
+p{
+    font-size:20px;
+    line-height:28px;
+
+}
+ /*  aqui alinhamos o contuedo no meio da pagina*/
+.page{
+    margin:50px auto 0; 
+    width: 1000px;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-botton: 55px;
+}
+
+/*  colocando as informações uma do lado do outro, texto e imagem*/
+main{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+
+}
+ul{
+    display:flex;
+    list-style:none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    
+}
+ul li a{color: green;
+    text-decoration:none;
+    
+   
+}
+
+ul li a:hover{
+    font-weight:bold;
+    
+}
+
+button{
+    border-radius: 10px;
+    font-size:14px;
+    line-height: 28px;
+    padding: 10px ;
+    background: black;
+    color: white;
+    cursor:pointer;
+
+    
+
+}
+
+i{
+    color:green;
+    font-weight:bold;
+    
+}
+ 
+button:hover{
+    background-color:lime;
+    
+}
+
+footer{
+    text-align: center;
+    font-size:14px;
+    line-height: 28px;
+}
+
+footer a{
+    color:green;
+    font-weight:bold;
+    text-decoration:none;
+}
+
